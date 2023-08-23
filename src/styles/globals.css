@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-banner {
+    @apply bg-gradient-to-b from-white to-[#6EAB2344];
+  }
+  .bg-service {
+    background-image: url("/images/bg-service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-contact {
+    background-image: url("/images/bg-contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
